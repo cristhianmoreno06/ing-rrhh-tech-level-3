@@ -4,9 +4,11 @@
 
 ## Información del Candidato
 
-- **Nombre**: [Cristhian Alexander Moreno Mancilla]
-- **Correo**: [cristhianmoreno06@gmail.com]
-- **LinkedIn**: [Enlace a tu perfil de LinkedIn]
+![](https://img.shields.io/github/stars/cristhianmoreno06/ing-rrhh-tech-level-3)
+
+- **Nombre**: Cristhian Alexander Moreno Mancilla
+- **Correo**: [cristhianmoreno06@gmail.com](mailto:cristhianmoreno06@gmail.com)
+- **GitHub**: [cristhianmoreno06](https://github.com/cristhianmoreno06/)
 
 ## Descripción de la Prueba
 

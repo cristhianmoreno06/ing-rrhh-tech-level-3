@@ -7,13 +7,13 @@ Esta función `robotCollisions` calcula el número de colisiones para cada robot
 ## Ejemplos de uso
 
 ```php
-<?php
-require_once 'colisiones.php';
-
-echo robotCollisions('LR') . "\n";  // Salida: 0 0
-echo robotCollisions('RL') . "\n";  // Salida: 1 1
-echo robotCollisions('RRR') . "\n"; // Salida: 0 0 0
-echo robotCollisions('RRL') . "\n"; // Salida: 1 2 1
+    <?php
+    require_once 'colisiones.php';
+    
+    echo robotCollisions('LR') . "<br>";  // Salida: 0 0
+    echo robotCollisions('RL') . "<br>";  // Salida: 1 1
+    echo robotCollisions('RRR') . "<br>"; // Salida: 0 0 0
+    echo robotCollisions('RRL') . "<br>"; // Salida: 1 2 1
 ```
 
 ## Requisitos
@@ -67,7 +67,8 @@ Esto ejecutará las pruebas definidas en robotCollisionsTest.php y mostrará los
 Las pruebas unitarias están definidas en el archivo `robotCollisionsTest.php`. Las pruebas incluyen una serie de casos que cubren diferentes secuencias de robots para garantizar que la función se comporte como se espera.
 
 ### Ejemplo de pruebas
-~~~
+````php
+
     public function testCollision1() {
     $this->assertEquals('0 0', robotCollisions('LR'));
     }
@@ -83,7 +84,7 @@ Las pruebas unitarias están definidas en el archivo `robotCollisionsTest.php`. 
     public function testCollision4() {
     $this->assertEquals('1 1 2', robotCollisions('RRL'));
     }
-~~~
+````
 ## Resultado esperado
 Cuando ejecutas las pruebas, deberías ver una salida como esta:
 ~~~
